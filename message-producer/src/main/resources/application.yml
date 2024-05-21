@@ -1,0 +1,16 @@
+server:
+  port: 9091
+
+spring:
+  rabbitmq:
+    addresses: amqps://b-xyz.mq.us-east-1.amazonaws.com:5671
+    host: amqps://b-xyz.mq.us-east-1.amazonaws.com
+    port: 5671
+    username: 
+    password: 
+
+aws:
+  mq:
+    exchange: 
+    queue: 
+    routing-key: 
